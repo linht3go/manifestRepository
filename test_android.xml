@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+	<remote 
+		name="github"
+		fetch="https://github.com/linht3go"/>
+
+	<default
+		remote="github" 
+		revision="master"/>
+
+	<project 
+		path="test/test01" 
+		name="test01.git" 
+		remote="github"
+		revision="master"/>
+
+	<project 
+		path="test/test02" 
+		name="test02.git" 
+		remote="github"
+		revision="master"/>
+
+	<project 
+		path="test/test03" 
+		name="test03.git" 
+		remote="github"
+		revision="master"/>
+
+</manifest>
